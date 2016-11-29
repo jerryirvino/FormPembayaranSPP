@@ -17,7 +17,7 @@ Public Class Tabel
     Public Sub New(namaTabel As String) '<-- KonStruktor
         Me.namaTabel = namaTabel
         Me.conn = New SqlConnection(My.Settings.strConn)
-        'isiDataTable()
+        isiDataTable()
     End Sub
 
     Public Sub isiDataTable(strSql As String) '<-- metode public

@@ -9,16 +9,16 @@ Public Class Form1
         con.ConnectionString = "Data Source=.\SQLEXPRESS;Initial Catalog=SiswaBW ;Integrated Security= True"
         cmd.Connection = con
         con.Open()
-        cmd.CommandText = "Select username, password from 
-        User where username = '" & TxtUsername.Text & "' and 
-        password ='" & TxtPass.Text & "'"
+        cmd.CommandText = "Select username, password from " &
+        "Users where username = '" & TxtUsername.Text & "' and " &
+        "password ='" & TxtPass.Text & "'"
 
-        rd = cmd.ExecuteReader
+        rd = cmd.ExecuteReader()
 
         If rd.HasRows Then
             Form2.Show()
         Else
-            MessageBox.Show("Asu salah!")
+            MessageBox.Show("Mohon maaf username dan password anda salah!")
         End If
     End Sub
 
