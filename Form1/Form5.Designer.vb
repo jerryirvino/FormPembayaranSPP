@@ -49,6 +49,7 @@ Partial Class Form5
         Me.Label15 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.BtnBaru = New System.Windows.Forms.Button()
         Me.GbxInvoice.SuspendLayout()
         Me.GbxBlnBayar.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -304,6 +305,16 @@ Partial Class Form5
         Me.PictureBox2.TabIndex = 43
         Me.PictureBox2.TabStop = False
         '
+        'BtnBaru
+        '
+        Me.BtnBaru.Location = New System.Drawing.Point(297, 373)
+        Me.BtnBaru.Name = "BtnBaru"
+        Me.BtnBaru.Size = New System.Drawing.Size(75, 23)
+        Me.BtnBaru.TabIndex = 3
+        Me.BtnBaru.Text = "Baru"
+        Me.BtnBaru.UseVisualStyleBackColor = True
+        Me.BtnBaru.Visible = False
+        '
         'Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -314,11 +325,14 @@ Partial Class Form5
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.BtnKeluar)
+        Me.Controls.Add(Me.BtnBaru)
         Me.Controls.Add(Me.BtnCetak)
         Me.Controls.Add(Me.BtnSimpan)
         Me.Controls.Add(Me.GbxBlnBayar)
         Me.Controls.Add(Me.GbxInvoice)
+        Me.MaximizeBox = False
         Me.Name = "Form5"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form Pembayaran SPP"
         Me.GbxInvoice.ResumeLayout(False)
         Me.GbxInvoice.PerformLayout()
@@ -358,4 +372,5 @@ Partial Class Form5
     Friend WithEvents Label15 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents BtnBaru As Button
 End Class
