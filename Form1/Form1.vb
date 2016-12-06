@@ -17,6 +17,7 @@ Public Class Form1
 
         If rd.HasRows Then
             Form2.Show()
+            Me.Close()
         Else
             MessageBox.Show("Mohon maaf username dan password anda salah!")
         End If

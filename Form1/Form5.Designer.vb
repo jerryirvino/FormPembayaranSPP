@@ -42,9 +42,9 @@ Partial Class Form5
         Me.Label8 = New System.Windows.Forms.Label()
         Me.CbxThnBayar = New System.Windows.Forms.ComboBox()
         Me.CbxBlnBayar = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.BtnSimpan = New System.Windows.Forms.Button()
+        Me.BtnCetak = New System.Windows.Forms.Button()
+        Me.BtnKeluar = New System.Windows.Forms.Button()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -169,13 +169,16 @@ Partial Class Form5
         '
         'DtpTglSPP
         '
+        Me.DtpTglSPP.Enabled = False
         Me.DtpTglSPP.Location = New System.Drawing.Point(73, 62)
         Me.DtpTglSPP.Name = "DtpTglSPP"
         Me.DtpTglSPP.Size = New System.Drawing.Size(200, 20)
         Me.DtpTglSPP.TabIndex = 2
+        Me.DtpTglSPP.Value = New Date(2016, 12, 6, 15, 4, 43, 0)
         '
         'TxtNoInvoice
         '
+        Me.TxtNoInvoice.Enabled = False
         Me.TxtNoInvoice.Location = New System.Drawing.Point(85, 23)
         Me.TxtNoInvoice.Name = "TxtNoInvoice"
         Me.TxtNoInvoice.Size = New System.Drawing.Size(100, 20)
@@ -237,32 +240,32 @@ Partial Class Form5
         Me.CbxBlnBayar.Size = New System.Drawing.Size(121, 21)
         Me.CbxBlnBayar.TabIndex = 14
         '
-        'Button1
+        'BtnSimpan
         '
-        Me.Button1.Location = New System.Drawing.Point(297, 373)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Simpan"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnSimpan.Location = New System.Drawing.Point(297, 373)
+        Me.BtnSimpan.Name = "BtnSimpan"
+        Me.BtnSimpan.Size = New System.Drawing.Size(75, 23)
+        Me.BtnSimpan.TabIndex = 2
+        Me.BtnSimpan.Text = "Simpan"
+        Me.BtnSimpan.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BtnCetak
         '
-        Me.Button2.Location = New System.Drawing.Point(378, 373)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Cetak"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BtnCetak.Location = New System.Drawing.Point(378, 373)
+        Me.BtnCetak.Name = "BtnCetak"
+        Me.BtnCetak.Size = New System.Drawing.Size(75, 23)
+        Me.BtnCetak.TabIndex = 3
+        Me.BtnCetak.Text = "Cetak"
+        Me.BtnCetak.UseVisualStyleBackColor = True
         '
-        'Button3
+        'BtnKeluar
         '
-        Me.Button3.Location = New System.Drawing.Point(459, 373)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 4
-        Me.Button3.Text = "Keluar"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.BtnKeluar.Location = New System.Drawing.Point(459, 373)
+        Me.BtnKeluar.Name = "BtnKeluar"
+        Me.BtnKeluar.Size = New System.Drawing.Size(75, 23)
+        Me.BtnKeluar.TabIndex = 4
+        Me.BtnKeluar.Text = "Keluar"
+        Me.BtnKeluar.UseVisualStyleBackColor = True
         '
         'Label16
         '
@@ -310,9 +313,9 @@ Partial Class Form5
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.BtnKeluar)
+        Me.Controls.Add(Me.BtnCetak)
+        Me.Controls.Add(Me.BtnSimpan)
         Me.Controls.Add(Me.GbxBlnBayar)
         Me.Controls.Add(Me.GbxInvoice)
         Me.Name = "Form5"
@@ -348,9 +351,9 @@ Partial Class Form5
     Friend WithEvents Label8 As Label
     Friend WithEvents CbxThnBayar As ComboBox
     Friend WithEvents CbxBlnBayar As ComboBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents BtnSimpan As Button
+    Friend WithEvents BtnCetak As Button
+    Friend WithEvents BtnKeluar As Button
     Friend WithEvents Label16 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents PictureBox1 As PictureBox

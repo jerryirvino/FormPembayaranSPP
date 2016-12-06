@@ -25,6 +25,7 @@ Partial Class Form2
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataSiswaTSM = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DataKelasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataTahunAjaranTSM = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarTSM = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeuanganToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -34,7 +35,6 @@ Partial Class Form2
         Me.LaporanTSM = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DataKelasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,19 +57,25 @@ Partial Class Form2
         'DataSiswaTSM
         '
         Me.DataSiswaTSM.Name = "DataSiswaTSM"
-        Me.DataSiswaTSM.Size = New System.Drawing.Size(172, 22)
+        Me.DataSiswaTSM.Size = New System.Drawing.Size(171, 22)
         Me.DataSiswaTSM.Text = "Data Siswa"
+        '
+        'DataKelasToolStripMenuItem
+        '
+        Me.DataKelasToolStripMenuItem.Name = "DataKelasToolStripMenuItem"
+        Me.DataKelasToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.DataKelasToolStripMenuItem.Text = "Data Kelas"
         '
         'DataTahunAjaranTSM
         '
         Me.DataTahunAjaranTSM.Name = "DataTahunAjaranTSM"
-        Me.DataTahunAjaranTSM.Size = New System.Drawing.Size(172, 22)
+        Me.DataTahunAjaranTSM.Size = New System.Drawing.Size(171, 22)
         Me.DataTahunAjaranTSM.Text = "Data Tahun Ajaran"
         '
         'KeluarTSM
         '
         Me.KeluarTSM.Name = "KeluarTSM"
-        Me.KeluarTSM.Size = New System.Drawing.Size(172, 22)
+        Me.KeluarTSM.Size = New System.Drawing.Size(171, 22)
         Me.KeluarTSM.Text = "Keluar"
         '
         'KeuanganToolStripMenuItem
@@ -112,14 +118,8 @@ Partial Class Form2
         'TentangToolStripMenuItem
         '
         Me.TentangToolStripMenuItem.Name = "TentangToolStripMenuItem"
-        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
+        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
         Me.TentangToolStripMenuItem.Text = "Tentang"
-        '
-        'DataKelasToolStripMenuItem
-        '
-        Me.DataKelasToolStripMenuItem.Name = "DataKelasToolStripMenuItem"
-        Me.DataKelasToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
-        Me.DataKelasToolStripMenuItem.Text = "Data Kelas"
         '
         'Form2
         '

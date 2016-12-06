@@ -14,4 +14,8 @@
     Private Sub KeluarTSM_Click(sender As Object, e As EventArgs) Handles KeluarTSM.Click
         Me.Close()
     End Sub
+
+    Private Sub SPPTSM_Click(sender As Object, e As EventArgs) Handles SPPTSM.Click
+        Form5.Show()
+    End Sub
 End Class

@@ -62,7 +62,7 @@ Partial Class Form1
         Me.BtnMasuk.Location = New System.Drawing.Point(173, 114)
         Me.BtnMasuk.Name = "BtnMasuk"
         Me.BtnMasuk.Size = New System.Drawing.Size(75, 23)
-        Me.BtnMasuk.TabIndex = 4
+        Me.BtnMasuk.TabIndex = 2
         Me.BtnMasuk.Text = "Masuk"
         Me.BtnMasuk.UseVisualStyleBackColor = True
         '
